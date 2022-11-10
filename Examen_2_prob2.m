@@ -19,6 +19,8 @@ title('Respuesta al impulso sin control')
 
 As=[A [0;0]; -C 0];
 Bs=[B;0];
+
+
 %{
 Q=[100 0 0;
    0 25 0;
@@ -27,7 +29,7 @@ Q=[100 0 0;
 
 Q=[100 0 0;
    0 25 0;
-   0 0 5000];
+   0 0 500];
 
 R=1;
 
@@ -48,5 +50,11 @@ xline(1.5)
 axis([0 3 0 1.5])
 grid on
 title('Analisis de respuesta')
+
+
+
+
+
+
 
 
